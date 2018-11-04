@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 20px;
+}
+
 .header-logo__wrapper {
     float: left;
 }
@@ -47,7 +51,8 @@
 }
 
 .main-wrapper {
-
+    width: 1400px;
+    margin: 0 auto;
 }
 
 /* это ты наверно хотел сделать для постов, но совсем поняла. ты же сделал их по id, тут тебе бы пришлось повторять историю с хештегами.
@@ -59,4 +64,12 @@
 .post {
     float: left;
     margin-right: 10px;
+}
+
+.author-wrapper img {
+    float: left;
+}
+.author-wrapper div:nth-of-type(1) {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
