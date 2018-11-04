@@ -1,0 +1,62 @@
+.header-logo__wrapper {
+    float: left;
+}
+
+.header-type__wrapper,
+.header-forms__wrapper {
+    float: right;
+    color: gainsboro;
+}
+
+.clear {
+    clear: both;
+}
+/* почему все через id????? читай комментарии к хеш тегам */
+#searchimg {
+    height: 40px;
+    wight: 40px;
+
+}
+.main-footer_wrapper {
+    background-color: gainsboro;
+    bottom:0;
+
+
+}
+/* почему все через id????? ты извращенец, лучше через классы цеплять. использовать id  в редких случаях. типо названия формы можно */
+#footerbutton {
+    background-color: black;
+    color: white;
+
+}
+/* было. что значит s? именк классам как и id задавать нужно по смыслу, которое они несут
+#s1,#s2,#s3,#s4,#s5,#s6,#s7,#s8,#s9,#s10,#s11 {
+    border-color: gainsboro;
+    border-style: solid;
+    color:gainsboro;
+}
+*/
+/* заметь проще, и не надо перечеслять все id.
+внутри класа header-tags_wrapper (по названию которого понятно, что там теги) теги ввиде ссылок <a>, поэтому можно тупо задать стиль ссылок для этого класса
+и в случае если появиться еще один тег, не нужно ему задаввать ЕЩЕ один id и возвращаться сюда и добавлять ЕГО
+*/
+.header-tags_wrapper a {
+    border-color: gainsboro;
+    border-style: solid;
+    color:gainsboro;
+}
+
+.main-wrapper {
+
+}
+
+/* это ты наверно хотел сделать для постов, но совсем поняла. ты же сделал их по id, тут тебе бы пришлось повторять историю с хештегами.
+и почему право, если логично, что они будут следовать один за одним слева на право. класс ниже как должно быть */
+#posts {
+    float: right;
+}
+
+.post {
+    float: left;
+    margin-right: 10px;
+}
